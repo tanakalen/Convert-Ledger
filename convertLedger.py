@@ -48,7 +48,7 @@ def getFile(filename):
 				print(year + '/' + month + '/' + day + '\t' + company)
 				print('\t' + 'Expenses:' + type + '\t$' + amount)
 				if account == 'Cash':
-					print('\tExpenses:' + account)
+					print('\tAssets:' + account)
 				elif (len(re.findall(asset, account))>0):
 					print('\tAssets:' + account)
 				else:
